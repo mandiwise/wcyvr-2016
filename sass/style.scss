@@ -11,10 +11,13 @@
 
 // CSS included in wcyvr-2016.css.
 
+@import "_normalize.scss";
 @import "_typography.scss";
+@import "_elements.scss";
+@import "_forms.scss";
+@import "_navigation.scss";
+@import "_modules.scss";
+@import "_widgets.scss";
 @import "_header.scss";
 @import "_content.scss";
-@import "_home.scss";
-@import "_forms.scss";
-@import "_widgets.scss";
 @import "_footer.scss";
