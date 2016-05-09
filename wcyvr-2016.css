@@ -1,0 +1,83 @@
+/**
+ * WORDCAMP VANCOUVER 2016 - CUSTOM CSS
+ *
+ * This CSS, like WordPress, is licensed under the GPL.
+ */
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+  color: #404040;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.75; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-family: "Helvetica Neue", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 38.4px;
+  font-size: 2.4rem;
+  line-height: 1.25;
+  margin-bottom: 0.5rem; }
+
+h2 {
+  color: #274e2f;
+  font-size: 33.6px;
+  font-size: 2.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.25; }
+
+h3 {
+  font-size: 28.8px;
+  font-size: 1.8rem;
+  line-height: 1.25; }
+
+/* Copy */
+p {
+  margin-bottom: 1.5rem; }
+
+dfn, cite, em, i {
+  font-style: italic; }
+
+blockquote {
+  margin: 0 1.5rem; }
+
+pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em; }
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Homepage
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Sidebar
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
