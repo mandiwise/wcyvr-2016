@@ -3,7 +3,7 @@ var gulp = require('gulp'),
     notify = require('gulp-notify'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
-    browserSync = require('browser-sync');
+    rename = require('gulp-rename');
 
 var plumberErrorHandler = {
    errorHandler: notify.onError({
@@ -19,6 +19,7 @@ gulp.task('sass', function() {
       .pipe(autoprefixer({
          browsers: ['last 2 versions']
       }))
+      .pipe(rename('wcyvr-2016.css'))
       .pipe(gulp.dest('./'));
 });
 
