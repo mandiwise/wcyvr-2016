@@ -65,7 +65,7 @@
       padding-top: $base__space-unit / 2;
 
       &:before {
-         content: 'f073';
+         content: "\f073";
          display: inline-block;
          font-family: 'FontAwesome';
          margin-right: $base__space-unit / 3;
@@ -103,7 +103,7 @@ footer.entry-meta {
 
 .comments-link {
    &:before {
-      content: 'f075';
+      content: "\f075";
       display: inline-block;
       font-family: 'FontAwesome';
       margin-right: $base__space-unit / 3;
@@ -114,7 +114,7 @@ footer.entry-meta {
    margin-left: $base__space-unit;
 
    &:before {
-      content: 'f040';
+      content: "\f040";
       display: inline-block;
       font-family: 'FontAwesome';
       margin-right: $base__space-unit / 3;
