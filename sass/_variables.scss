@@ -3,19 +3,23 @@
 // Breakpoints
 
 $big-phone-width: 480px;
-$tablet-width: 600px;
+$tablet-width: 640px;
 $desktop-width: 1000px;
 
-$container-width: 1120px;
+$inner-container-width: 800px;
+$outer-container-width: $desktop-width;
 
 // Colours
 
 $color__wcyvr-green: rgb(39, 78, 47);
+$color__wcyvr-red: rgb(156, 47, 25);
+$color__wcyvr-grey: rgb(150, 150, 150);
+$color__wcyvr-yellow: #f0e4d1;
 
 $color__background-body: #fff;
 $color__text-main: #404040;
 $color__link: $color__wcyvr-green;
-$color__link-hover: $color__wcyvr-green;
+$color__link-hover: $color__wcyvr-red;
 
 $color__background-screen: #f1f1f1;
 $color__text-screen: #21759b;
@@ -33,8 +37,8 @@ $base__border-dashed: 1px dashed #c8c8c8;
 
 // Typography
 
-$font__main: "Helvetica Neue", sans-serif;
-// $font__alt: "Novecento Sans Web", sans-serif;
+$font__main: "Open Sans", sans-serif;
+$font__alt: "Lora", serif;
 $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 $font__pre: "Courier 10 Pitch", Courier, monospace;
 $font__line-height-body: 1.75;

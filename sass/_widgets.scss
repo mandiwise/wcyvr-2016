@@ -1,3 +1,106 @@
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
+
+.widget-area > div {
+   @include container;
+}
+
+#secondary {
+   background:
+      linear-gradient( to bottom, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100% ),
+      url('https://2016.vancouver.wordcamp.org/files/2016/05/log-pile.jpg') center center no-repeat;
+   background-size: cover, cover;
+   color: white;
+   padding: ($base__space-unit * 2) 0;
+}
+
+#primary-sidebar {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.widget {
+   flex: 0 1 100%;
+   margin-bottom: ($base__space-unit * 2);
+
+   &:last-child {
+      margin-bottom: 0;
+   }
+
+   h1 {
+      font-family: $font__main;
+      @include font-size(1.8);
+      margin-bottom: $base__space-unit;
+      margin-top: 0;
+   }
+
+   a {
+      color: white;
+   }
+
+   @include tablet {
+      flex: 0 1 48%;
+      max-width: 48%;
+   }
+}
+
+/* Map Widget */
+
+.googlemaps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.googlemaps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Sponsor Widget */
+
+.wcb_widget_sponsors {
+   background: white;
+   border: $base__border;
+   color: $color__text-main;
+   flex: 0 1 100%;
+   max-width: 100%;
+   padding: $base__space-unit * 1.5;
+   width: 100%;
+
+   h1 {
+      text-align: center;
+   }
+
+   .sponsor-logo {
+      color: $color__link;
+      max-width: 200px;
+      padding: ($base__space-unit / 2)$base__space-unit $base__space-unit;
+
+      &:hover {
+         color: $color__link-hover;
+      }
+   }
+}
+
+.sponsor-level {
+   align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+
+   h4 {
+      flex: 0 1 100%;
+      width: 100%;
+   }
+}
+
+.wcb_widget_sponsors .sponsor-level .sponsor-logo {
+   display: inline-block;
+}

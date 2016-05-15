@@ -9,17 +9,19 @@ select,
 textarea {
 	color: $color__text-main;
 	font-family: $font__main;
-	@include font-size(1);
+	@include font-size(.9);
 	line-height: $font__line-height-body;
+
+	@include tablet {
+		@include font-size(1);
+	}
 }
 
 /* Headings */
 
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
-	font-family: $font__main;
-	letter-spacing: 2px;
-	text-transform: uppercase;
+	font-family: $font__alt;
 }
 
 h1 {
@@ -38,6 +40,12 @@ h2 {
 h3 {
 	@include font-size(1.8);
 	line-height: 1.25;
+}
+
+h4 {
+	color: $color__wcyvr-red;
+	font-family: $font__main;
+	@include font-size(1.2);
 }
 
 /* Copy */

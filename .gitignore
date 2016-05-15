@@ -23,3 +23,9 @@ ehthumbs.db
 # Ignore packages #
 # =============== #
 node_modules/
+
+# Dev-only files #
+# =============== #
+index.html
+single.html
+index_files/

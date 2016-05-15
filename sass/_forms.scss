@@ -1,3 +1,55 @@
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: $color__wcyvr-red;
+	border: none;
+	border-radius: 0;
+	color: white;
+	cursor: pointer;
+	font-family: $font__main;
+	line-height: 1;
+	padding: ($base__space-unit / 2) $base__space-unit;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background: darken($color__wcyvr-red, 10%);
+		color: white;
+	}
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	color: #666;
+	background-color: #f4f4f4;
+	border: $base__border;
+	border-radius: 0;
+
+	&:focus {
+		color: #111;
+	}
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+	padding: ($base__space-unit / 5);
+}
+
+textarea {
+	padding-left: $base__space-unit / 5;
+	width: 100%;
+}
