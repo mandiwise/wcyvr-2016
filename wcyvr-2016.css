@@ -642,7 +642,7 @@ a {
       background-size: 400px 180px; } }
   @media (min-width: 640px) {
     .site-content:after {
-      background: url("https://2016.vancouver.wordcamp.org/files/2016/05/keft-scene.png") no-repeat left 15px bottom, url("https://2016.vancouver.wordcamp.org/files/2016/05/right-scene.png") no-repeat right 15px bottom;
+      background: url("https://2016.vancouver.wordcamp.org/files/2016/05/left-scene.png") no-repeat left 15px bottom, url("https://2016.vancouver.wordcamp.org/files/2016/05/right-scene.png") no-repeat right 15px bottom;
       background-size: 267px 161px, 300px 135px; } }
   @media (min-width: 1000px) {
     .site-content:after {
