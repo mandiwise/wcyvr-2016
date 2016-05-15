@@ -671,7 +671,7 @@ a {
   .entry-header .entry-meta {
     padding-top: 0.75rem; }
     .entry-header .entry-meta:before {
-      content: "\f073";
+      content: "";
       display: inline-block;
       font-family: 'FontAwesome';
       margin-right: 0.5rem; }
@@ -694,7 +694,7 @@ footer.entry-meta {
   margin-top: 3rem; }
 
 .comments-link:before {
-  content: "\f075";
+  content: "";
   display: inline-block;
   font-family: 'FontAwesome';
   margin-right: 0.5rem; }
@@ -702,7 +702,7 @@ footer.entry-meta {
 .edit-link {
   margin-left: 1.5rem; }
   .edit-link:before {
-    content: "\f040";
+    content: "";
     display: inline-block;
     font-family: 'FontAwesome';
     margin-right: 0.5rem; }
