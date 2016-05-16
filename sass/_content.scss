@@ -46,7 +46,7 @@
    padding-top: $base__space-unit;
 }
 
-.post {
+.post:not(.single) {
    margin-bottom: $base__space-unit * 3;
 
    &:last-child {
@@ -147,15 +147,16 @@ footer.entry-meta {
 /* Comments */
 
 .comments-area {
+   display: none;
+}
+
+.post .comments-area {
    border-top: $base__border;
+   display: block;
    padding-top: $base__space-unit;
 
    ol, ul {
       list-style-type: none;
-   }
-
-   .page & {
-      display: none;
    }
 }
 

@@ -728,9 +728,9 @@ a {
   padding-bottom: 6rem;
   padding-top: 1.5rem; }
 
-.post {
+.post:not(.single) {
   margin-bottom: 4.5rem; }
-  .post:last-child {
+  .post:not(.single):last-child {
     margin-bottom: 0; }
 
 .byline {
@@ -789,12 +789,14 @@ footer.entry-meta {
 
 /* Comments */
 .comments-area {
+  display: none; }
+
+.post .comments-area {
   border-top: 1px solid #e1e1e1;
+  display: block;
   padding-top: 1.5rem; }
-  .comments-area ol, .comments-area ul {
+  .post .comments-area ol, .post .comments-area ul {
     list-style-type: none; }
-  .page .comments-area {
-    display: none; }
 
 .comment-content a {
   word-wrap: break-word; }
