@@ -506,11 +506,12 @@ a {
     list-style-type: none;
     margin: 0;
     padding: 0; }
+    .main-navigation ul li:hover > a {
+      background: #305f39; }
     .main-navigation ul a {
       display: block;
       padding: 0.75rem; }
       .main-navigation ul a:hover {
-        background: #305f39;
         color: #f0e4d1; }
     .main-navigation ul ul {
       background: #305f39;
@@ -526,6 +527,8 @@ a {
       .main-navigation ul ul li:hover > ul,
       .main-navigation ul ul li.focus > ul {
         left: 100%; }
+      .main-navigation ul ul li:hover > a {
+        background: #387043; }
       .main-navigation ul ul a {
         width: 200px; }
       @media (min-width: 640px) {

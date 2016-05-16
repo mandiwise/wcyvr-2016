@@ -39,12 +39,17 @@ a {
 		margin: 0;
 		padding: 0;
 
+		li:hover {
+			& > a {
+				background: lighten($color__wcyvr-green, 5%);
+			}
+		}
+
 		a {
 			display: block;
 			padding: $base__space-unit / 2;
 
 			&:hover {
-				background: lighten($color__wcyvr-green, 5%);
 				color: $color__wcyvr-yellow;
 			}
 		}
@@ -67,6 +72,12 @@ a {
 				&:hover > ul,
 				&.focus > ul {
 					left: 100%;
+				}
+
+				&:hover {
+					& > a {
+						background: lighten($color__wcyvr-green, 10%);
+					}
 				}
 			}
 
