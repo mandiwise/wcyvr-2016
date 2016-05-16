@@ -592,7 +592,7 @@ a {
   position: relative;
   right: 9999px; }
   .main-small-navigation .menu-toggle:after {
-    content: '\f0c9';
+    content: "";
     cursor: pointer;
     font-family: "FontAwesome";
     padding: 0.25rem 0.75rem;
@@ -600,7 +600,7 @@ a {
     right: -9999px; }
   .main-small-navigation .menu-toggle.toggled-on:after {
     background: #274e2f;
-    content: '\f00d'; }
+    content: ""; }
 
 @media screen and (min-width: 600px) {
   .main-small-navigation .menu-toggle {

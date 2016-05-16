@@ -194,7 +194,8 @@ a {
 	right: 9999px;
 
 	&:after {
-		content: '\f0c9';
+		// content: '\f0c9';
+		content: "";
 		cursor: pointer;
 		font-family: "FontAwesome";
 		padding: ($base__space-unit / 6) ($base__space-unit / 2);
@@ -204,7 +205,8 @@ a {
 
 	&.toggled-on:after {
 		background: $color__wcyvr-green;
-		content: '\f00d';
+		// content: '\f00d';
+		content: "";
 	}
 }
 
