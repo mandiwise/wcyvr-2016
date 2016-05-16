@@ -145,6 +145,10 @@ footer.entry-meta {
    ol, ul {
       list-style-type: none;
    }
+
+   .page & {
+      display: none;
+   }
 }
 
 .comment-content a {
@@ -278,7 +282,7 @@ footer.entry-meta {
    }
    .page-title {
       border-bottom: $base__border;
-      color: darken($color__wcyvr-grey, 15%);
+      color: darken($color__wcyvr-grey, 10%);
       font-family: $font__main;
       @include font-size(1.2);
       display: inline-block;

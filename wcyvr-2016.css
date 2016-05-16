@@ -788,6 +788,8 @@ footer.entry-meta {
   padding-top: 1.5rem; }
   .comments-area ol, .comments-area ul {
     list-style-type: none; }
+  .page .comments-area {
+    display: none; }
 
 .comment-content a {
   word-wrap: break-word; }
@@ -885,7 +887,7 @@ footer.entry-meta {
 .search .page-title,
 .archive .page-title {
   border-bottom: 1px solid #e1e1e1;
-  color: #707070;
+  color: #7d7d7d;
   font-family: "Open Sans", sans-serif;
   font-size: 19.2px;
   font-size: 1.2rem;
