@@ -46,6 +46,14 @@
    padding-top: $base__space-unit;
 }
 
+.post {
+   margin-bottom: $base__space-unit * 3;
+
+   &:last-child {
+      margin-bottom: 0;
+   }
+}
+
 .byline {
    display: none;
 }

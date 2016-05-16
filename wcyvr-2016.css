@@ -728,6 +728,11 @@ a {
   padding-bottom: 6rem;
   padding-top: 1.5rem; }
 
+.post {
+  margin-bottom: 4.5rem; }
+  .post:last-child {
+    margin-bottom: 0; }
+
 .byline {
   display: none; }
 
