@@ -211,7 +211,13 @@ a {
 
 .comment-navigation,
 .posts-navigation,
+.paging-navigation,
 .post-navigation {
+	margin-top: $base__space-unit;
+
+	&:after {
+		@extend .clearfix;
+	}
 
 	.site-main & {
 		margin: 0 0 $base__space-unit;
@@ -220,12 +226,53 @@ a {
 
 	.nav-previous {
 		float: left;
+		padding-right: $base__space-unit * 2;
 		width: 50%;
 	}
 
 	.nav-next {
 		float: right;
+		padding-left: $base__space-unit * 2;
 		text-align: right;
 		width: 50%;
+	}
+}
+
+.post-navigation {
+	margin: ($base__space-unit * 2) 0 ($base__space-unit * 1.5);
+
+	a {
+		font-weight: 700;
+		text-decoration: none;
+	}
+}
+
+.comment-navigation,
+.posts-navigation,
+.paging-navigation {
+	margin-top: $base__space-unit;
+
+	.nav-previous,
+	.nav-next {
+		a {
+			background: $color__wcyvr-green;
+			border: none;
+			border-radius: 0;
+			color: white;
+			cursor: pointer;
+			display: inline-block;
+			font-family: $font__main;
+			line-height: 1;
+			padding: ($base__space-unit / 2) $base__space-unit;
+			text-decoration: none;
+			text-transform: uppercase;
+
+			&:hover,
+			&:active,
+			&:focus {
+				background: darken($color__wcyvr-green, 5%);
+				color: white;
+			}
+		}
 	}
 }

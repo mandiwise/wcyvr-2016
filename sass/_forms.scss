@@ -2,6 +2,21 @@
 # Forms
 --------------------------------------------------------------*/
 
+label {
+	color: $color__wcyvr-green;
+	display: block;
+	font-weight: 700;
+	margin-bottom: $base__space-unit / 3;
+	text-transform: uppercase;
+}
+
+input[type="checkbox"] ~ label {
+	color: $color__text-main;
+	font-weight: 400;
+	margin-left: $base__space-unit / 3;
+	text-transform: none;
+}
+
 button,
 input[type="button"],
 input[type="reset"],
