@@ -304,3 +304,81 @@ footer.entry-meta {
       display: none;
    }
 }
+
+/* Camptix CSS */
+
+.tix_tickets_table {
+   @include font-size(.9);
+   max-width: 100%;
+
+   tbody {
+      tr:last-child {
+         border-bottom: $base__border;
+
+         td {
+            padding-bottom: $base__space-unit;
+         }
+      }
+   }
+
+   th, td {
+      padding: $base__space-unit / 3;
+   }
+
+   th {
+      color: $color__wcyvr-green;
+      text-transform: uppercase;
+   }
+
+   .tix-column-description {
+      padding-left: 0;
+      text-align: left;
+   }
+
+   .tix-column-remaining,
+   .tix-column-quantity {
+      text-align: center;
+   }
+
+   @include desktop {
+      @include font-size(1);
+
+      th, td {
+         padding: ($base__space-unit / 3) $base__space-unit;
+      }
+   }
+}
+
+
+body.admin-bar #tix,
+#tix {
+   padding-top: 0;
+}
+
+[id="tix"] {
+   h2 {
+      color: $color__wcyvr-red;
+      font-family: $font__main;
+      @include font-size(1.5);
+   }
+
+   .tix-order-summary {
+      td {
+         &.tix-column-per-ticket,
+         &.tix-column-quantity,
+         &.tix-column-price {
+            text-align: center;
+         }
+      }
+   }
+
+   .tix-row-total {
+      text-align: center;
+   }
+}
+
+.tix-attendee-form {
+   th, td {
+      padding-left: 0;
+   }
+}
