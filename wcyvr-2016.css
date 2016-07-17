@@ -953,6 +953,130 @@ body.admin-bar #tix,
 .tix-attendee-form th, .tix-attendee-form td {
   padding-left: 0; }
 
+/* Schedule Page */
+.page-slug-schedule .entry-content h1 {
+  border-bottom: 1px solid #e1e1e1;
+  color: #9c2f19;
+  font-family: "Open Sans", sans-serif;
+  font-size: 28.8px;
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  padding-bottom: 1.5rem; }
+
+.wcpt-schedule {
+  max-width: 100%; }
+  .wcpt-schedule tr {
+    border-bottom: 1px solid #e1e1e1; }
+  .wcpt-schedule th {
+    color: #274e2f;
+    text-transform: uppercase; }
+  .wcpt-schedule th, .wcpt-schedule td {
+    padding: 0.5rem 0.75rem; }
+  .wcpt-schedule th:not(:last-child),
+  .wcpt-schedule td:not(:last-child) {
+    border-right: 1px solid #e1e1e1; }
+  .wcpt-schedule .wcpt-col-time {
+    min-width: 90px;
+    text-align: left; }
+  .wcpt-schedule .wcpt-time {
+    font-weight: bold; }
+  .wcpt-schedule .wcpt-session-speakers {
+    display: block; }
+  .wcpt-schedule .wcpt-session-empty,
+  .wcpt-schedule .wcpt-time-845am,
+  .wcpt-schedule .wcpt-time-1200pm,
+  .wcpt-schedule .wcpt-time-600pm {
+    background: #f1f1f1; }
+  .wcpt-schedule .wcpt-time-845am td,
+  .wcpt-schedule .wcpt-time-1200pm td,
+  .wcpt-schedule .wcpt-time-600pm td {
+    border-right: 0; }
+  .wcpt-schedule .wcpt-time-845am td:first-child,
+  .wcpt-schedule .wcpt-time-1200pm td:first-child,
+  .wcpt-schedule .wcpt-time-600pm td:first-child {
+    border-right: 1px solid #e1e1e1; }
+  .wcpt-schedule .wcb-session-opening-remarks,
+  .wcpt-schedule .wcb-session-lunch,
+  .wcpt-schedule .wcb-session-after-party-at-rogue-kitchen-wetbar-601-w-cordova-st {
+    font-weight: bold;
+    text-align: center; }
+
+/* Speakers Page */
+.wcorg-speaker {
+  border-bottom: 1px solid #e1e1e1;
+  overflow: auto; }
+  .wcorg-speaker:first-child {
+    border-top: 1px solid #e1e1e1; }
+  .wcorg-speaker h2 {
+    color: #9c2f19;
+    font-family: "Open Sans", sans-serif;
+    font-size: 28.8px;
+    font-size: 1.8rem;
+    text-align: center; }
+  .wcorg-speaker img {
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto; }
+  @media (min-width: 640px) {
+    .wcorg-speaker h2 {
+      text-align: left; }
+    .wcorg-speaker img {
+      float: left;
+      margin-bottom: 1.5rem;
+      margin-right: 3%;
+      max-width: 13%; }
+    .wcorg-speaker p {
+      margin-top: 0;
+      max-width: 84%;
+      float: right; } }
+
+/* Speaker and Session Posts */
+.wcb_speaker .entry-meta {
+  display: none; }
+
+.wcb_speaker .entry-content {
+  overflow: auto; }
+
+.wcb_speaker .speaker-avatar img {
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  margin: 0 auto; }
+
+.wcb_speaker .speaker-sessions {
+  border-top: 1px solid #e1e1e1;
+  color: #9c2f19;
+  font-family: "Open Sans", sans-serif;
+  font-size: 28.8px;
+  font-size: 1.8rem;
+  padding-top: 1.5rem; }
+
+.wcb_speaker #speaker-session-names {
+  padding-left: 0; }
+
+@media (min-width: 640px) {
+  .wcb_speaker .speaker-avatar img {
+    float: left;
+    margin-bottom: 1.5rem;
+    margin-right: 3%;
+    max-width: 13%; }
+  .wcb_speaker p {
+    margin-top: 0;
+    max-width: 84%;
+    float: right; } }
+
+.wcb_session .session-speakers {
+  border-top: 1px solid #e1e1e1;
+  color: #9c2f19;
+  font-family: "Open Sans", sans-serif;
+  font-size: 28.8px;
+  font-size: 1.8rem;
+  padding-top: 1.5rem; }
+
+.wcb_session #session-speaker-names {
+  padding-left: 0; }
+
 /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/

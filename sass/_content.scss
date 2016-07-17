@@ -382,3 +382,183 @@ body.admin-bar #tix,
       padding-left: 0;
    }
 }
+
+/* Schedule Page */
+
+.page-slug-schedule {
+   .entry-content {
+      h1 {
+         border-bottom: $base__border;
+         color: $color__wcyvr-red;
+         font-family: $font__main;
+         @include font-size(1.8);
+         margin-bottom: 0;
+         padding-bottom: $base__space-unit;
+      }
+   }
+}
+
+.wcpt-schedule {
+   max-width: 100%;
+
+   tr {
+      border-bottom: $base__border;
+   }
+
+   th {
+      color: $color__wcyvr-green;
+      text-transform: uppercase;
+   }
+
+   th, td {
+      padding: ($base__space-unit / 3) ($base__space-unit / 2);
+   }
+
+   th:not(:last-child),
+   td:not(:last-child) {
+      border-right: $base__border;
+   }
+
+   .wcpt-col-time {
+      min-width: 90px;
+      text-align: left;
+   }
+
+   .wcpt-time {
+      font-weight: bold;
+   }
+
+   .wcpt-session-speakers {
+      display: block;
+   }
+
+   .wcpt-session-empty,
+   .wcpt-time-845am,
+   .wcpt-time-1200pm,
+   .wcpt-time-600pm {
+      background: #f1f1f1;
+   }
+
+   .wcpt-time-845am,
+   .wcpt-time-1200pm,
+   .wcpt-time-600pm {
+      td {
+         border-right: 0;
+      }
+
+      td:first-child {
+         border-right: $base__border;
+      }
+   }
+
+   .wcb-session-opening-remarks,
+   .wcb-session-lunch,
+   .wcb-session-after-party-at-rogue-kitchen-wetbar-601-w-cordova-st {
+      font-weight: bold;
+      text-align: center;
+   }
+}
+
+/* Speakers Page */
+
+.wcorg-speaker {
+   border-bottom: $base__border;
+   overflow: auto;
+
+   &:first-child {
+      border-top: $base__border;
+   }
+
+   h2 {
+      color: $color__wcyvr-red;
+      font-family: $font__main;
+      @include font-size(1.8);
+      text-align: center;
+   }
+
+   img {
+      border-radius: 50%;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+   }
+
+   @include tablet {
+      h2 {
+         text-align: left;
+      }
+
+      img {
+         float: left;
+         margin-bottom: $base__space-unit;
+         margin-right: 3%;
+         max-width: 13%;
+      }
+
+      p {
+         margin-top: 0;
+         max-width: 84%;
+         float: right;
+      }
+   }
+}
+
+/* Speaker and Session Posts */
+
+.wcb_speaker {
+   .entry-meta {
+      display: none;
+   }
+
+   .entry-content {
+      overflow: auto;
+   }
+
+   .speaker-avatar img {
+      border-radius: 50%;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+   }
+
+   .speaker-sessions {
+      border-top: $base__border;
+      color: $color__wcyvr-red;
+      font-family: $font__main;
+      @include font-size(1.8);
+      padding-top: $base__space-unit;
+   }
+
+   #speaker-session-names {
+      padding-left: 0;
+   }
+
+   @include tablet {
+      .speaker-avatar img {
+         float: left;
+         margin-bottom: $base__space-unit;
+         margin-right: 3%;
+         max-width: 13%;
+      }
+
+      p {
+         margin-top: 0;
+         max-width: 84%;
+         float: right;
+      }
+   }
+}
+
+.wcb_session {
+   .session-speakers {
+      border-top: $base__border;
+      color: $color__wcyvr-red;
+      font-family: $font__main;
+      @include font-size(1.8);
+      padding-top: $base__space-unit;
+   }
+
+   #session-speaker-names {
+      padding-left: 0;
+   }
+}
