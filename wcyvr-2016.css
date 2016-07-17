@@ -1031,6 +1031,21 @@ body.admin-bar #tix,
       max-width: 84%;
       float: right; } }
 
+/* Sessions Page */
+.wcorg-session {
+  border-bottom: 1px solid #e1e1e1; }
+  .wcorg-session:first-child {
+    border-top: 1px solid #e1e1e1; }
+  .wcorg-session h2 {
+    color: #9c2f19;
+    font-family: "Open Sans", sans-serif;
+    font-size: 28.8px;
+    font-size: 1.8rem; }
+
+.wcorg-session-links {
+  padding-left: 0;
+  font-weight: bold; }
+
 /* Speaker and Session Posts */
 .wcb_speaker .entry-meta {
   display: none; }

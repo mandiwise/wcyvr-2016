@@ -503,6 +503,27 @@ body.admin-bar #tix,
    }
 }
 
+/* Sessions Page */
+
+.wcorg-session {
+   border-bottom: $base__border;
+
+   &:first-child {
+      border-top: $base__border;
+   }
+
+   h2 {
+      color: $color__wcyvr-red;
+      font-family: $font__main;
+      @include font-size(1.8);
+   }
+}
+
+.wcorg-session-links {
+   padding-left: 0;
+   font-weight: bold;
+}
+
 /* Speaker and Session Posts */
 
 .wcb_speaker {
