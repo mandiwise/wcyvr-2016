@@ -980,21 +980,27 @@ body.admin-bar #tix,
     text-align: left; }
   .wcpt-schedule .wcpt-time {
     font-weight: bold; }
+  .wcpt-schedule .wcpt-session-title {
+    font-weight: bold; }
   .wcpt-schedule .wcpt-session-speakers {
     display: block; }
   .wcpt-schedule .wcpt-session-empty,
+  .wcpt-schedule .wcpt-time-800am,
   .wcpt-schedule .wcpt-time-845am,
   .wcpt-schedule .wcpt-time-1200pm,
   .wcpt-schedule .wcpt-time-600pm {
     background: #f1f1f1; }
+  .wcpt-schedule .wcpt-time-800am td,
   .wcpt-schedule .wcpt-time-845am td,
   .wcpt-schedule .wcpt-time-1200pm td,
   .wcpt-schedule .wcpt-time-600pm td {
     border-right: 0; }
+  .wcpt-schedule .wcpt-time-800am td:first-child,
   .wcpt-schedule .wcpt-time-845am td:first-child,
   .wcpt-schedule .wcpt-time-1200pm td:first-child,
   .wcpt-schedule .wcpt-time-600pm td:first-child {
     border-right: 1px solid #e1e1e1; }
+  .wcpt-schedule .wcb-session-registration,
   .wcpt-schedule .wcb-session-opening-remarks,
   .wcpt-schedule .wcb-session-lunch,
   .wcpt-schedule .wcb-session-after-party-at-rogue-kitchen-wetbar-601-w-cordova-st {

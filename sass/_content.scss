@@ -428,17 +428,23 @@ body.admin-bar #tix,
       font-weight: bold;
    }
 
+   .wcpt-session-title {
+      font-weight: bold;
+   }
+
    .wcpt-session-speakers {
       display: block;
    }
 
    .wcpt-session-empty,
+   .wcpt-time-800am,
    .wcpt-time-845am,
    .wcpt-time-1200pm,
    .wcpt-time-600pm {
       background: #f1f1f1;
    }
 
+   .wcpt-time-800am,
    .wcpt-time-845am,
    .wcpt-time-1200pm,
    .wcpt-time-600pm {
@@ -451,6 +457,7 @@ body.admin-bar #tix,
       }
    }
 
+   .wcb-session-registration,
    .wcb-session-opening-remarks,
    .wcb-session-lunch,
    .wcb-session-after-party-at-rogue-kitchen-wetbar-601-w-cordova-st {
