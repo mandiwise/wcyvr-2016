@@ -1008,30 +1008,37 @@ body.admin-bar #tix,
     text-align: center; }
 
 /* Speakers Page */
+.wcorg-organizer,
 .wcorg-speaker {
   border-bottom: 1px solid #e1e1e1;
   overflow: auto; }
+  .wcorg-organizer:first-child,
   .wcorg-speaker:first-child {
     border-top: 1px solid #e1e1e1; }
+  .wcorg-organizer h2,
   .wcorg-speaker h2 {
     color: #9c2f19;
     font-family: "Open Sans", sans-serif;
     font-size: 28.8px;
     font-size: 1.8rem;
     text-align: center; }
+  .wcorg-organizer img,
   .wcorg-speaker img {
     border-radius: 50%;
     text-align: center;
     display: block;
     margin: 0 auto; }
   @media (min-width: 640px) {
+    .wcorg-organizer h2,
     .wcorg-speaker h2 {
       text-align: left; }
+    .wcorg-organizer img,
     .wcorg-speaker img {
       float: left;
       margin-bottom: 1.5rem;
       margin-right: 3%;
       max-width: 13%; }
+    .wcorg-organizer p,
     .wcorg-speaker p {
       margin-top: 0;
       max-width: 84%;
